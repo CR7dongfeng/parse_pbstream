@@ -1,0 +1,24 @@
+"/home/juefx/Downloads/JetBrains CLion 2019.3.5 Linux64/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/juefx/catkin_ws/src/cartographer_ros/cartographer_ros
+-- Found Boost: /usr/include (found version "1.65.1") found components:  system iostreams regex 
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.40.0") found components:  system filesystem thread date_time iostreams serialization chrono atomic regex 
+-- looking for PCL_COMMON
+CMake Error at CMakeLists.txt:47 (find_package):
+  By not providing "Findcartographer.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "cartographer", but CMake did not find one.
+
+  Could not find a package configuration file provided by "cartographer" with
+  any of the following names:
+
+    cartographerConfig.cmake
+    cartographer-config.cmake
+
+  Add the installation prefix of "cartographer" to CMAKE_PREFIX_PATH or set
+  "cartographer_DIR" to a directory containing one of the above files.  If
+  "cartographer" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/juefx/catkin_ws/src/cartographer_ros/cartographer_ros/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/juefx/catkin_ws/src/cartographer_ros/cartographer_ros/cmake-build-debug/CMakeFiles/CMakeError.log".
