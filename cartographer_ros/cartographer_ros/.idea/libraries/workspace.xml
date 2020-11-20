@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="workspace">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../.rosinstall" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="file://$PROJECT_DIR$/../../cartographer" />
+      <root url="file://$PROJECT_DIR$/../../.rosinstall.bak" />
+      <root url="file://$PROJECT_DIR$/../../ceres-solver" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
